@@ -2,6 +2,6 @@ package hellogreet
 
 import "fmt"
 
-func Greet() {
-	fmt.Println("Hello Everyone")
+func Greet(name string) {
+	fmt.Println("Hello", name)
 }
